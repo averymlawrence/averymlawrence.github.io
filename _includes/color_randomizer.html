@@ -1,0 +1,30 @@
+<script type="text/javascript">
+    function shuffle(array) {
+        let counter = array.length;
+
+        // While there are elements in the array
+        while (counter > 0) {
+            // Pick a random index
+            let index = Math.floor(Math.random() * counter);
+
+            // Decrease counter by 1
+            counter--;
+
+            // And swap the last element with it
+            let temp = array[counter];
+            array[counter] = array[index];
+            array[index] = temp;
+        }
+
+        return array;
+    }
+
+    function ran_col() {
+        var letters = ['purp', 'pink', 'red', 'cyan', 'blue', 'oj', 'green']; //Set your colors here
+        shuffle(letters);
+        var list = document.getElementsByTagName('h2');
+        for (var i = 0; i < list.length; i++) {
+            list[i].className = letters[i];
+        }
+    }
+</script>
