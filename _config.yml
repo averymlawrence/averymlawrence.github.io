@@ -4,33 +4,21 @@
 permalink:           pretty
 
 # Setup
-title:               Half-Cort and Mid-Raynge
-tagline:             'Where Wins Are Shared'
-description:         'Producing replacement-level basketball podcasts since 2014.'
-url:                 https://cschoonover.github.io
-baseurl:             'https://cschoonover.github.io'
-amazonbaseurl:       http://s3-us-west-2.amazonaws.com/hcmr/
-amazonbaseurlhttps:       https://s3-us-west-2.amazonaws.com/hcmr/
+title:               Avery Lawrence
+tagline:             ''
+description:         ''
+url:                 https://averymlawrence.github.io
+baseurl:             'https://averymlawrence.github.io'
 paginate:            5
 
 # About/contact
 author:
-  name:              Cortlandt Schoonover
-  url:               https://twitter.com/cschoonover
-  email:             cmpd.mag@gmail.com
+  name:              Avery Lawrence
+  url:               
+  email:             averymlawrence@gmail.com
 
 # Custom vars
 version:             1.0.0
 
 # Misc
 licence: 
-# Podcast
-podcast:
-  title: Half-Cort and Mid-Raynge
-  art: http://cschoonover.github.io/public/infield-in.jpg
-  category: 'Sports &amp; Recreation'
-  subcategories:
-  - Professional
-  subtitle: Producing replacement-level basketball podcasts since 2014.
-  summary: >
-    Half-Cort and Mid-Raynge is for and sometimes by Joel Sherman. It was originally conceived as a way for Joel to have some entertainment as he ran the Boston Marathon in 2014. Since then, we’ve been tearing up the airwaves, bringing levity and/or philosophical pessimism to all of the newsiest NBA news.
